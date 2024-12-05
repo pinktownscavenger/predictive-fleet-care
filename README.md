@@ -21,11 +21,11 @@ The dataset (fleet_train.csv) contains information about truck operations. Each 
     * Step 3: Perform mutual information analysis to assess feature importance.
     * Step 4: Analyze correlations and drop highly correlated features (correlation > 0.80).
 2. Model Training & Evaluation
-  * Train three machine learning models:
-    * Logistic Regression
-    * Random Forest Classifier
-    * Gradient Boosting Classifier
+    * Train three machine learning models:
+      * Logistic Regression
+      * Random Forest Classifier
+      * Gradient Boosting Classifier
 3. Evaluate models using:
-  * Accuracy Score
-  * Classification Report (Precision, Recall, F1-score)
-  * Confusion Matrix
+    * Accuracy Score
+    * Classification Report (Precision, Recall, F1-score)
+    * Confusion Matrix
