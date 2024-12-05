@@ -1,18 +1,12 @@
 # Predictive Fleet Care
 The goal is to predict maintenance needs for trucks using ML techniques and historical data, aiming to reduce unplanned downtimes and improve operational efficiency.
 
-## Project Overview
-* Removing irrelevant and low-variance features.
-  * Using mutual information and correlation analysis to identify and drop redundant features.
-* Machine Learning Models:
-  * Comparing Logistic Regression, Random Forest, and Gradient Boosting classifiers.
-* Performance Metrics:
-  * Accuracy, Precision, Recall, F1-score, and a visualized Confusion Matrix.
- 
 ## Data Description
 The dataset (fleet_train.csv) contains information about truck operations. Each record includes:
 1. Features: Operational and environmental data (e.g., GPS, timestamps, fleet ID).
 2. Target Variable: Maintenance_flag (binary: 1 for maintenance needed, 0 for no maintenance).
+
+![Dataset_Distribution](https://github.com/user-attachments/assets/9716e0f8-8e90-48f4-91c8-b05732f5e46e)
 
 ## Pipeline
 1. EDA
@@ -29,3 +23,10 @@ The dataset (fleet_train.csv) contains information about truck operations. Each 
     * Accuracy Score
     * Classification Report (Precision, Recall, F1-score)
     * Confusion Matrix
+
+## 
+
+## Installation
+Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/predictive-fleet-care.git
