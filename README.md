@@ -16,10 +16,10 @@ The dataset (fleet_train.csv) contains information about truck operations. Each 
 
 ## Pipeline
 1. EDA
-  * Step 1: Drop irrelevant columns (e.g., identifiers, GPS data).
-  * Step 2: Remove low-variance features.
-  * Step 3: Perform mutual information analysis to assess feature importance.
-  * Step 4: Analyze correlations and drop highly correlated features (correlation > 0.80).
+    * Step 1: Drop irrelevant columns (e.g., identifiers, GPS data).
+    * Step 2: Remove low-variance features.
+    * Step 3: Perform mutual information analysis to assess feature importance.
+    * Step 4: Analyze correlations and drop highly correlated features (correlation > 0.80).
 2. Model Training & Evaluation
   * Train three machine learning models:
     * Logistic Regression
