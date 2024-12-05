@@ -27,13 +27,14 @@ The dataset (fleet_train.csv) contains information about truck operations. Each 
     * Classification Report (Precision, Recall, F1-score)
     * Confusion Matrix
 
-## Confusion Matrices
-1. Logistic Regression
-![cm_logit](https://github.com/user-attachments/assets/406479d7-53a8-4ad0-a464-00a34c795d76)
-2. Random Forest Classifier 
-![cm_rfc](https://github.com/user-attachments/assets/cde3ae13-781d-482e-9a71-69a21cec4b13)
-3. Gradient Boosting Classifier 
-![cm_gbc](https://github.com/user-attachments/assets/8c18275b-f8b9-4d60-abf0-503faea34f6a)
+### Logistic Regression
+   ![cm_logit](https://github.com/user-attachments/assets/406479d7-53a8-4ad0-a464-00a34c795d76)
+   
+### Random Forest Classifier 
+   ![cm_rfc](https://github.com/user-attachments/assets/cde3ae13-781d-482e-9a71-69a21cec4b13)
+   
+### Gradient Boosting Classifier 
+   ![cm_gbc](https://github.com/user-attachments/assets/8c18275b-f8b9-4d60-abf0-503faea34f6a)
 
 ## Installation
 Clone the repository:
